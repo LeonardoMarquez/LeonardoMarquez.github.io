@@ -231,6 +231,6 @@ main {
 
 iframe 
 {
-  justify-content: center;
-
+  margin-right: auto;
+  margin-left: auto;
 }

@@ -65,7 +65,7 @@ padding: 40px 20px;
 
 width: 700px;
 height: 300px;
-box-shadow: 5px 10px #000000;
+border: 100px #ecd4a1;
 
 }
 
@@ -231,6 +231,6 @@ main {
 
 iframe 
 {
-justify-content: center;
-
+margin-left: auto;
+margin-right: auto;
 }
