@@ -87,6 +87,13 @@ article.inset {
   border-style: inset;
   border-color: rgb(17, 85, 187);
 }
+p {
+float: left;
+margin: 0%;
+padding: 0px;
+width: 220px;
+height: auto;
+}
 .left {
     float: left;
 
