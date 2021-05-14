@@ -85,29 +85,6 @@ width: 220px;
 height: auto;
 }
 
-.left {
-  float: left;
-
-}
-aside{
-  text-align: center;
-  color:white;
-  background-color: pink;
-  height: 680px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 40px 20px;
-  width: 900px;
-  box-shadow: 5px 10px #000000;
-}
-main {
-  width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-
 
 
 
