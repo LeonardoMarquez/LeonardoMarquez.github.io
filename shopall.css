@@ -63,20 +63,21 @@ margin-left: 45%;
 
 }
 
-article  {
-text-align: center;
-
-margin-left: auto;
-margin-right: auto;   
-background-color:#ffebcd;
-width:700px;
-height: 220px;
-border: 20px;
+section  {
+  text-align: center;
+  
+  margin-left: auto;
+  margin-right: auto;   
+  background-color:#ffebcd;
+  width:700px;
+  height: 220px;
+  border: 20px;
 }
-article.inset {
+section.inset {
 border-style: inset;
 border-color: rgb(17, 85, 187);
 }
+
 p {
 float: left;
 margin: 0%;
