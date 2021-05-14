@@ -59,11 +59,11 @@ color: #000000;
 h1 {
 font-size: 60px;
 color: #ffebcd;
-margin-left: 45%;
+margin-left: 36%;
 
 }
 
-section  {
+article  {
   text-align: center;
   
   margin-left: auto;
@@ -73,11 +73,10 @@ section  {
   height: 220px;
   border: 20px;
 }
-section.inset {
+article.inset {
 border-style: inset;
 border-color: rgb(17, 85, 187);
 }
-
 p {
 float: left;
 margin: 0%;
@@ -161,4 +160,58 @@ font-size: 22px;
 #menuToggle input:checked ~ ul
 {
 transform: none;
+}
+
+.footer{
+  background:#000;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:gray;
+  font-size:0.8em;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:gray;
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:#fff;
+  }
+  
+  .footer .row ul{
+  width:100%;
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+  
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+  
+  @media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .row ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .row a i{
+  margin:0% 3%;
+  }
 }
